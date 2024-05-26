@@ -1,0 +1,147 @@
+.drop-menu1 ,.drop-menu2 ,.drop-menu3 ,.drop-menu4 ,.drop-menu5 ,.drop-menu6 ,.drop-menu7 ,.drop-menu8 ,.drop-menu9 ,.drop-menu10 {
+    border-bottom: 1px solid #d5d5d5
+    ;
+    padding-top:10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .drop-menu11{
+    padding-top:10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .drop-menu1 .drop-menu1-1,.drop-menu2 a ,.drop-menu3 a ,.drop-menu4 a ,.drop-menu5 a ,.drop-menu6 a ,.drop-menu7 a ,.drop-menu8 a ,.drop-menu9 a ,.drop-menu10 a ,.drop-menu11 a ,.drop-menu12 a {
+    color:black;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  
+  .drop-menu1:hover ,.drop-menu2:hover ,.drop-menu3:hover ,.drop-menu4:hover ,.drop-menu5:hover ,.drop-menu6:hover ,.drop-menu7:hover ,.drop-menu8:hover ,.drop-menu9:hover ,.drop-menu10:hover ,.drop-menu11:hover ,.drop-menu12:hover {
+    background:white;
+    
+  }
+  .drop-menu1:hover .drop-menu1-1 ,.drop-menu2:hover .drop-menu2-1 ,.drop-menu3:hover .drop-menu3-1 ,.drop-menu4:hover .drop-menu4-1 ,.drop-menu5:hover .drop-menu5-1 ,.drop-menu6:hover .drop-menu6-1 ,.drop-menu7:hover .drop-menu7-1 ,.drop-menu8:hover .drop-menu8-1 ,.drop-menu9:hover .drop-menu9-1 ,.drop-menu10:hover .drop-menu10-1 ,.drop-menu11:hover .drop-menu11-1 ,.drop-menu12:hover .drop-menu12-1 {
+    color:orange;
+  }
+  
+  .drop-menu1:hover .drop-menu-1-2 ,.drop-menu2:hover .drop-menu-2-2 ,.drop-menu3:hover .drop-menu-3-2 ,.drop-menu4:hover .drop-menu-4-2 ,.drop-menu5:hover .drop-menu-5-2 ,.drop-menu6:hover .drop-menu-6-2 ,.drop-menu7:hover .drop-menu-7-2 ,.drop-menu8:hover .drop-menu-8-2 ,.drop-menu9:hover .drop-menu-9-2 ,.drop-menu10:hover .drop-menu-10-2 ,.drop-menu11:hover .drop-menu-11-2 ,.drop-menu12:hover .drop-menu-12-2 {
+    display: block;
+  }
+  
+  .drop-menu-1-2 ,.drop-menu-2-2 ,.drop-menu-3-2 ,.drop-menu-4-2 ,.drop-menu-5-2 ,.drop-menu-6-2 ,.drop-menu-7-2 ,.drop-menu-8-2 ,.drop-menu-9-2 ,.drop-menu-10-2 ,.drop-menu-11-2 ,.drop-menu-12-2  {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width:650px;
+    height:341px;
+    background: white;
+    z-index: 3;
+  
+  }
+  
+  .drop-menu-1-2 a ,.drop-menu-2-2 a ,.drop-menu-3-2 a ,.drop-menu-4-2 a ,.drop-menu-5-2 a ,.drop-menu-6-2 a ,.drop-menu-7-2 a ,.drop-menu-8-2 a ,.drop-menu-9-2 a ,.drop-menu-10-2 a ,.drop-menu-11-2 a ,.drop-menu-12-2 a  {
+    padding: 5px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    background: white;
+  }
+  .drop-menu-1-2 a:hover ,.drop-menu-2-2 a:hover ,.drop-menu-3-2 a:hover ,.drop-menu-4-2 a:hover ,.drop-menu-5-2 a:hover ,.drop-menu-6-2 a:hover ,.drop-menu-7-2 a:hover ,.drop-menu-8-2 a:hover ,.drop-menu-9-2 a:hover ,.drop-menu-10-2 a:hover ,.drop-menu-11-2 a:hover  {
+    color:orange;
+  }
+  .drop-menu-1-2 h6 ,.drop-menu-2-2 h6,.drop-menu-3-2 h6,.drop-menu-4-2 h6,.drop-menu-5-2 h6,.drop-menu-6-2 h6,.drop-menu-7-2 h6,.drop-menu-8-2 h6,.drop-menu-9-2 h6,.drop-menu-10-2 h6,.drop-menu-11-2 h6 {
+    color:red;
+  }
+  
+  .menu-dropdown {
+    list-style: none;
+    display: none;
+    position: absolute;
+    width:250px;
+    background:white;
+    top: 100%; 
+    left: 0;
+    z-index:1;
+  }
+  
+  .menu-dropdown ul
+  {
+    list-style-type: none;
+  }
+  
+  
+  .menu-dropdown a:hover {
+    color: orange;
+  }
+  .menu1:hover .menu-dropdown {
+    display: block;
+  }
+
+.sub-menu {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Thêm màu nền trắng */
+    margin: 20px auto;
+    padding: 20px;
+    display: block;
+    width: 1150px;
+    justify-content: center;
+  }
+
+.button-container {
+    display: flex;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .button-container button {
+    background-color: white;
+    border: 1px solid #e9e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-container button:hover {
+    border-color: orange;
+    color: orange;
+  }
+  
+  .button-container button img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .button-container button p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .button-container button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .breadcrumb {
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    width: 1150px;
+    justify-content: left;
+    position: relative;
+  }
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .breadcrumb-item.active {
+    color: grey;
+  }
