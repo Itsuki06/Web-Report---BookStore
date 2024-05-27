@@ -28,8 +28,10 @@ body{
     height:50px;
     flex-wrap: wrap;
 }
-.inner-logo{
-    padding:0;
+.inner-logo img{
+    width: 239px;
+    height: 60px;
+    padding-bottom: 10px;
 }
 .search{
     border:2px solid red;
@@ -240,6 +242,9 @@ body{
 }
 .menu7{
     width:10%;
+}
+#menu-7-1{
+    padding-left:12px;
 }
 
 /*end menu*/
@@ -677,22 +682,3 @@ body{
     justify-content: center;
     font-size:12px;
 }
-/*responsive*/
-@media (max-width: 1177px) {
-    .search,
-    .hotline {
-      display: none;
-    }
-    .header.inner-main{
-        display:flex;
-    }
-    .inner-logo{
-        float:left;
-        flex-basis:60%;
-    }
-    .log-in .shopping{
-        float:right;
-        flex-basis:20%;
-    }
-    
-  }
