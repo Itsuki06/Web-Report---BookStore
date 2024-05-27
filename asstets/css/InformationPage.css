@@ -177,9 +177,12 @@ div {
     margin-top: 15px;
 }
 .webbook-hot .sidebar-title {
-    padding-bottom: 10px;
+    margin: 10px 0;
+    padding-bottom: 5px;
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid red;
 }
 .webbook-hot .hot-list a {
     text-decoration: none;
@@ -191,10 +194,16 @@ div {
     display: flex;
 }
 .webbook-hot .hot-list .hot-item .img {
+    position: relative;
     width: 155px;
+    height: 120px;
+    flex-shrink: 0;
 }
 .webbook-hot .hot-list .hot-item .img img{
-    width: 155px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .webbook-hot .hot-list .hot-item .caption {
     padding-left: 15px;
