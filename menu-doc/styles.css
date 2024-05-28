@@ -256,7 +256,7 @@ ul.submenu h6 {
     background-color: rgb(172, 4, 4);
 }
 .logo-menu8 {
-    background: url(icon/record-button.png);
+    background: url(./asstets/images/record-button.png);
     width:16px;
     height:auto;
     display:inline-block;
@@ -358,7 +358,6 @@ ul.submenu h6 {
     background-color: #fff;
     border-radius: 8px;
     padding: 0;
-    /* padding-right: 15px; */
 }
 .section-3-title {
     padding: 10px 10px 0 10px;
@@ -381,8 +380,6 @@ ul.submenu h6 {
 .box-product {
     display: inline-block;
     width: 20%;
-    /* border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee; */
     border: 1px solid #eee;
     position: relative;
     padding: 0 10px 10px 10px;
@@ -390,9 +387,6 @@ ul.submenu h6 {
 .box-product:hover {
     border-color: rgba(0, 0, 0, .12);
     box-shadow: 0 0 0.8125rem 0 rgb(0 0 0 / 5%);
-    /* transform: translateY(-8px);
-    transition-property: transform;
-    transition-duration: 0.3s;  */
 }
 .box-product:hover .name-product {
     color: #F5A623;
